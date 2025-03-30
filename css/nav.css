@@ -1,0 +1,55 @@
+nav ul{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+
+nav a{
+    color: #4169E1;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+nav ul a img {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+#pIndex {
+    grid-column: 1 / 2;
+}
+
+#pApropos {
+    grid-column: 2 / 3;
+}
+
+#pParcours {
+    grid-column: 3 / 4;
+}
+
+#pProjets {
+    grid-column: 4 / 5;
+}
+
+#pLoisirs {
+    grid-column: 5 / 6;
+}
+
+nav ul a span{
+    visibility: hidden;
+}
+
+nav ul a:hover{
+    color: #D4AF37;
+}
+
+nav ul a:hover span {
+    visibility: visible;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #D4AF37;
+}
